@@ -2,8 +2,9 @@ import React,{Component} from 'react';
 import {
     BrowserRouter as Router , Route, NavLink ,Link
 } from 'react-router-dom';
+const axios = require('axios');
 
-import url from './app';
+var url = require("./app").url;
 
 export default class HomePage extends Component{
     constructor(props){

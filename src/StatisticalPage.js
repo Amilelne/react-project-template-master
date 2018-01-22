@@ -3,7 +3,8 @@ import {
     BrowserRouter as Router , Route, NavLink ,Link
 } from 'react-router-dom';
 
-import url from './app';
+var url = require("./app").url;
+const axios = require('axios');
 
 var LineChart = require("react-chartjs").Line;
 
@@ -55,8 +56,6 @@ export default class StatisticalPage extends Component{
                         pointHighlightFill: "#fff",
                         pointHighlightStroke: "rgba(220,220,220,1)",
                         data: []
-
-
                     }
                 ]
             }

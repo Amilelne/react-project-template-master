@@ -3,7 +3,8 @@ import {
     BrowserRouter as Router , Route, NavLink ,Link
 } from 'react-router-dom';
 
-import url from './app';
+var url = require("./app").url;
+const axios = require('axios');
 
 export default class DetailPage extends Component{
     constructor(props){

@@ -4,12 +4,14 @@ import {
 } from 'react-router-dom';
 import {browserHistory} from 'react-router';
 
-const axios = require('axios');
-export const url = 'http://125.212.216.184:3000/api/Todos';
 import HomePage from './HomePage';
 import AddPage from './AddPage';
 import DetailPage from './DetailPage';
 import StatisticalPage from './StatisticalPage';
+
+const axios = require('axios');
+var url = module.exports.url = "http://125.212.216.184:3000/api/Todos";
+
 
 export default class App extends Component{
     render(){

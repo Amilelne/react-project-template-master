@@ -3,7 +3,7 @@ import {
     BrowserRouter as Router , Route, NavLink ,Link
 } from 'react-router-dom';
 
-import url from './app';
+var url = require("./app").url;
 
 export default class AddPage extends Component{
     constructor(props){
