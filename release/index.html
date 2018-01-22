@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style>
+      .navigate ul{
+        list-style-type:none;
+        margin:0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      .navigate li{
+        float: left;
+      }
+      .navigate li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navigate li a:hover:not(.active){
+        background-color: #111;
+      }
+      .active{
+        background-color: #4caf50;
+      }
+      .theList ul{
+        list-style: none;
+        padding-left: 0;
+        width: 255px;
+      }
+      .theList ul li{
+        color: #FFFFFF;
+        background-color: rgba(255,255,255,0.5);
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+      }
+    </style>
+    <title>TODO LIST</title>
+    <script src="/bundle.js"></script>
+  </head>
+  <body>
+    <div id="head"></div>
+    <div id="app"></div>
+  </body>
+</html>

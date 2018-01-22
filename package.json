@@ -1,0 +1,33 @@
+{
+  "name": "react-project-template",
+  "version": "1.0.0",
+  "description": "ReactJS project template",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/williele/react-project-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williele/react-project-template/issues"
+  },
+  "homepage": "https://github.com/williele/react-project-template#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chart.js": "^1.1.1",
+    "react": "^16.2.0",
+    "react-chartjs": "^1.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
